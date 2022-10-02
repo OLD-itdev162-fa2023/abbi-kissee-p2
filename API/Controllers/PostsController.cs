@@ -8,8 +8,8 @@ using Persistence;
 
 namespace API.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class PostsController : ControllerBase
     {
         private readonly DataContext context;
@@ -20,6 +20,7 @@ namespace API.Controllers
         }
 
         // GET api/posts
+        [HttpGet(Name = "GetPosts")]
         public ActionResult<List<Post>> Get()
         {
             return this.context.Posts.ToList();

@@ -10,7 +10,6 @@ export class AppComponent implements OnInit {
   title = 'client';
   posts: any;
 
-
   constructor(private http: HttpClient) {
     
   }

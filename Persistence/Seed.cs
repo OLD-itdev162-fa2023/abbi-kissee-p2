@@ -15,18 +15,8 @@ namespace Persistence
                 var Posts = new List<Post>
                 {
                     new Post {
-                        Title = "First post",
-                        Body = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur gravida arcu ac tortor dignissim.",
-                        Date = DateTime.Now.AddDays(-10)
-                        },
-                    new Post {
-                        Title = "Second post",
-                        Body = "Enim neque volutpat ac tincidunt vitae semper. Nulla facilisi etiam dignissim diam. Egestas sed sed risus pretium.",
-                        Date = DateTime.Now.AddDays(-7)
-                        },
-                    new Post {
-                        Title = "Third post",
-                        Body = "Imperdiet dui accumsan sit amet nulla. Ultricies mi eget mauris pharetra et ultrices. Nibh ipsum consequat nisl vel pretium. Tincidunt lobortis feugiat vivamus at augue.",
+                        Title = "HIGHLY RECOMMEND! We had a great experience!!",
+                        Body = "Me and my band recorded a demo here last week and it was a great experience. Very clean studio and super duper helpful staff. 15/10 Would recommend. Also so affordable!! Every struggling band's dream!",
                         Date = DateTime.Now.AddDays(-4)
                         }
                 };

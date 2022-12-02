@@ -1,0 +1,19 @@
+.post-card {
+    max-width: 850px;
+    margin: 40px auto;
+    opacity: 0.75;
+    appearance: auto;
+}
+
+.post-card:hover {
+    cursor: pointer;
+    background-color: rgb(76, 118, 74);
+}
+
+.post-button {
+    background-color: lightblue;
+}
+
+.post-button:hover {
+    background-color: rgb(27, 120, 151);
+}
